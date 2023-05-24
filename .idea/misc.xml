@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/mq-send-pro-01/pom.xml" />
+        <option value="$PROJECT_DIR$/mq-receive-pro-01/pom.xml" />
+        <option value="$PROJECT_DIR$/mq-send-pro-02/pom.xml" />
+        <option value="$PROJECT_DIR$/mq-receive-pro-02/pom.xml" />
+        <option value="$PROJECT_DIR$/mq-receive-pro-03/pom.xml" />
+        <option value="$PROJECT_DIR$/mq-send-pro-03/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mq-receive-pro-01/mq-receive-pro-01.iml" filepath="$PROJECT_DIR$/mq-receive-pro-01/mq-receive-pro-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-receive-pro-02/mq-receive-pro-02.iml" filepath="$PROJECT_DIR$/mq-receive-pro-02/mq-receive-pro-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-receive-pro-03/mq-receive-pro-03.iml" filepath="$PROJECT_DIR$/mq-receive-pro-03/mq-receive-pro-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-send-pro-01/mq-send-pro-01.iml" filepath="$PROJECT_DIR$/mq-send-pro-01/mq-send-pro-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-send-pro-02/mq-send-pro-02.iml" filepath="$PROJECT_DIR$/mq-send-pro-02/mq-send-pro-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-send-pro-03/mq-send-pro-03.iml" filepath="$PROJECT_DIR$/mq-send-pro-03/mq-send-pro-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mqProject.iml" filepath="$PROJECT_DIR$/.idea/mqProject.iml" />
+    </modules>
+  </component>
+</project>

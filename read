@@ -1,0 +1,7 @@
+Rabbitmq消息队列使用demo合集
+mq-send-pro-01：不适用交换机完成消息推送
+mq-receive-pro-01：不适用交换机完成消息接收
+mq-send-pro-02：使用direct交换机进行消息推送
+mq-receive-pro-02：使用direct交换机完成消息接收
+mq-send-pro-03：使用fanout交换机进行消息推送 注：使用fanout交换机属于广播模式，一般先启动消费者，再启动提供者，否则消费者启动前的数据拿不到
+mq-receive-pro-03：使用fanout交换机完成消息接收 注：使用fanout交换机属于广播模式，一般先启动消费者，再启动提供者，否则消费者启动前的数据拿不到
