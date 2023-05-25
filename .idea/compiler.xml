@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mq-send-pro-04" />
         <module name="mq-receive-pro-02" />
         <module name="mq-receive-pro-01" />
+        <module name="mq-receive-pro-04" />
         <module name="mq-receive-pro-03" />
         <module name="mq-send-pro-02" />
         <module name="mq-send-pro-03" />
@@ -19,9 +21,11 @@
       <module name="mq-receive-pro-01" target="1.5" />
       <module name="mq-receive-pro-02" target="1.5" />
       <module name="mq-receive-pro-03" target="1.5" />
+      <module name="mq-receive-pro-04" target="1.5" />
       <module name="mq-send-pro-01" target="1.5" />
       <module name="mq-send-pro-02" target="1.5" />
       <module name="mq-send-pro-03" target="1.5" />
+      <module name="mq-send-pro-04" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

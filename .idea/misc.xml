@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/mq-receive-pro-02/pom.xml" />
         <option value="$PROJECT_DIR$/mq-receive-pro-03/pom.xml" />
         <option value="$PROJECT_DIR$/mq-send-pro-03/pom.xml" />
+        <option value="$PROJECT_DIR$/mq-receive-pro-04/pom.xml" />
+        <option value="$PROJECT_DIR$/mq-send-pro-04/pom.xml" />
       </list>
     </option>
   </component>
