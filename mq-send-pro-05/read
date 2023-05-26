@@ -1,0 +1,6 @@
+消息队列的事务
+channel.txSelect(); // 启动事务
+channel.txCommit(); // 提交事务
+channel.txRollback(); // 回滚事务
+
+发送者需要通过上面的方法，来进行事务操作，注：最后记得回滚事务，防止占用内存
