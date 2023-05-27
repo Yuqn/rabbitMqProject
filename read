@@ -7,3 +7,7 @@ mq-send-pro-03：使用fanout交换机进行消息推送 注：使用fanout交�
 mq-receive-pro-03：使用fanout交换机完成消息接收 注：使用fanout交换机属于广播模式，一般先启动消费者，再启动提供者，否则消费者启动前的数据拿不到
 mq-send-pro-04：使用topic交换机进行消息推送
 mq-receive-pro-04：使用topic交换机完成消息接收
+mq-send-pro-05：使用消息队列事务发送消息
+mq-receive-pro-05：使用消息队列事务接收消息
+mq-send-pro-06：springboot整合mq，基于direct交换机发送消息
+mq-receive-pro-06：springboot整合mq，基于direct交换机接收消息

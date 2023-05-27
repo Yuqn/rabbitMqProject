@@ -1,0 +1,12 @@
+springboot整合mq接收信息
+一、创建项目，选择依赖
+    这里选择的是message下的spring for rabbitmq
+二、配置
+# 配置 rabbitmq 信息
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+三、

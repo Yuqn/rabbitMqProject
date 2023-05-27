@@ -1,0 +1,20 @@
+springboot整合mq发送信息
+一、创建项目，选择依赖
+    这里选择的是message下的spring for rabbitmq
+二、配置
+# 配置 rabbitmq 信息
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+三、写demo
+    com.yuqn.serevice
+    com.yuqn.impl
+    com.yuqn.mqsendpro06
+  注：完成上述后，如果启动后会报错，没有交换机，需要配置交换机并且绑定
+四、配置、绑定交换机
+    方法一：通过配置文件注入
+        com.yuqn.conf
+    方法二：使用注解
