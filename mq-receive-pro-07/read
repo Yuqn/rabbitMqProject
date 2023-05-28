@@ -1,0 +1,25 @@
+springboot整合mq，基于fanout交换机接收
+fanout是广播模式，先创建消费者
+
+使用fanout的话，需要随机生成队列名，所以使用全注解的方法来监听（mq-**-06那个需要手动写队列名）
+
+一、创建项目，选择依赖
+    这里选择的是message下的spring for rabbitmq
+二、配置
+# 配置 rabbitmq 信息
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+三、创建demo，使用 RabbitListener 注解可以自动创建一个启动，不需要调用
+@RabbitListener(bindings = {
+        @QueueBinding( // @QueueBinding注解要完成队列和交换机的绑定
+                value = @Queue(), // @Queue创建一个队列（没有指定参数则表示创建一个随机队列）
+                exchange = @Exchange(name="fanoutExchange",type="fanout") // 创建一个交换机
+        )
+})
+public void fanoutReceive01(String message){
+    System.out.println("fanoutReceive01方法于" + new Date() + "接收到队列的消息："+ message);
+}

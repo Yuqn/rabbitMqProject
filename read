@@ -11,3 +11,5 @@ mq-send-pro-05：使用消息队列事务发送消息
 mq-receive-pro-05：使用消息队列事务接收消息
 mq-send-pro-06：springboot整合mq，基于direct交换机发送消息
 mq-receive-pro-06：springboot整合mq，基于direct交换机接收消息
+mq-send-pro-07：springboot整合mq，基于fanout交换机发送消息
+mq-receive-pro-07：springboot整合mq，基于fanout交换机接收消息（先创建）
