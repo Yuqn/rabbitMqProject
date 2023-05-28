@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/mq-receive-pro-05/mq-receive-pro-05.iml" filepath="$PROJECT_DIR$/mq-receive-pro-05/mq-receive-pro-05.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq-receive-pro-06/mq-receive-pro-06.iml" filepath="$PROJECT_DIR$/mq-receive-pro-06/mq-receive-pro-06.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq-receive-pro-07/mq-receive-pro-07.iml" filepath="$PROJECT_DIR$/mq-receive-pro-07/mq-receive-pro-07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-receive-pro-08/mq-receive-pro-08.iml" filepath="$PROJECT_DIR$/mq-receive-pro-08/mq-receive-pro-08.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq-send-pro-01/mq-send-pro-01.iml" filepath="$PROJECT_DIR$/mq-send-pro-01/mq-send-pro-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq-send-pro-02/mq-send-pro-02.iml" filepath="$PROJECT_DIR$/mq-send-pro-02/mq-send-pro-02.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq-send-pro-03/mq-send-pro-03.iml" filepath="$PROJECT_DIR$/mq-send-pro-03/mq-send-pro-03.iml" />
@@ -16,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/mq-send-pro-05/mq-send-pro-05.iml" filepath="$PROJECT_DIR$/mq-send-pro-05/mq-send-pro-05.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq-send-pro-06/mq-send-pro-06.iml" filepath="$PROJECT_DIR$/mq-send-pro-06/mq-send-pro-06.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq-send-pro-07/mq-send-pro-07.iml" filepath="$PROJECT_DIR$/mq-send-pro-07/mq-send-pro-07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-send-pro-08/mq-send-pro-08.iml" filepath="$PROJECT_DIR$/mq-send-pro-08/mq-send-pro-08.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mqProject.iml" filepath="$PROJECT_DIR$/.idea/mqProject.iml" />
     </modules>
   </component>

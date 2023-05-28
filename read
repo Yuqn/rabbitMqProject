@@ -13,3 +13,5 @@ mq-send-pro-06：springboot整合mq，基于direct交换机发送消息
 mq-receive-pro-06：springboot整合mq，基于direct交换机接收消息
 mq-send-pro-07：springboot整合mq，基于fanout交换机发送消息
 mq-receive-pro-07：springboot整合mq，基于fanout交换机接收消息（先创建）
+mq-send-pro-08：springboot整合mq，基于topic交换机发送消息
+mq-receive-pro-08：springboot整合mq，基于topic交换机接收消息（先创建，确保交换机存在）

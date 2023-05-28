@@ -1,0 +1,39 @@
+springboot整合mq，基于topic交换机处理
+一，创建项目，添加依赖
+二、添加配置
+三、写demo
+@Resource
+private AmqpTemplate amqpTemplate;
+
+@RabbitListener(bindings = { // 通过持续监听，来获取消息，@RabbitListener注解会自动调用这个方法，所以不需要手动调用
+        @QueueBinding( // @QueueBinding注解要完成队列和交换机的绑定
+                value = @Queue("topic01"), // @Queue创建一个队列（没有指定参数则表示创建一个随机队列）
+                key = {"aa"}, // 定义规则，roundingkey
+                exchange = @Exchange(name="topicExchange",type="fanout") // 创建一个交换机
+        )
+})
+public void topicReceive01(String message){
+    System.out.println("topicReceive01方法于" + new Date() + "接收到队列topic01【原队列规则为aa】的消息："+ message);
+}
+
+@RabbitListener(bindings = { // 通过持续监听，来获取消息，@RabbitListener注解会自动调用这个方法，所以不需要手动调用
+        @QueueBinding( // @QueueBinding注解要完成队列和交换机的绑定
+                value = @Queue("topic02"), // @Queue创建一个队列（没有指定参数则表示创建一个随机队列）
+                key = {"aa.*"}, // 定义规则，roundingkey
+                exchange = @Exchange(name="topicExchange",type="fanout") // 创建一个交换机
+        )
+})
+public void topicReceive02(String message){
+    System.out.println("topicReceive02方法于" + new Date() + "接收到队列topic02【原队列规则为aa.*】的消息："+ message);
+}
+
+@RabbitListener(bindings = { // 通过持续监听，来获取消息，@RabbitListener注解会自动调用这个方法，所以不需要手动调用
+        @QueueBinding( // @QueueBinding注解要完成队列和交换机的绑定
+                value = @Queue("topic03"), // @Queue创建一个队列（没有指定参数则表示创建一个随机队列）
+                key = {"aa.#"}, // 定义规则，roundingkey
+                exchange = @Exchange(name="topicExchange",type="fanout") // 创建一个交换机
+        )
+})
+public void topicReceive03(String message){
+    System.out.println("topicReceive03方法于" + new Date() + "接收到队列topic03【原队列规则为aa.#】的消息："+ message);
+}
